@@ -7,7 +7,7 @@ public class CashbackHackServiceTest {
     public void testRemainShouldReturnZeroWhenAmountIsMultipleOfBoundary() {
         CashbackHackService service = new CashbackHackService();
         int amount = 3000;
-        int expectedRemain = 1000;
+        int expectedRemain = 0;
 
         int actualRemain = service.remain(amount);
 
